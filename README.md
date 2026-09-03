@@ -8,12 +8,12 @@ A practical, experience-based series on recommender system architecture and engi
 
 ## What's Inside
 
-| Series                        | Language | Articles | Status                 |
-| ----------------------------- | -------- | -------- | ---------------------- |
-| 推荐系统架构 · Architecture         | 中文       | 14       | 13 done, 1 in progress |
-| 推荐工程实践 · Engineering          | 中文       | 2        | In Progress            |
-| Architecture (EN translation) | English  | 14       | In Progress            |
-| Engineering (EN translation)  | English  | 2        | In Progress            |
+| Series                    | Language | Articles | Status                 |
+| ------------------------- | -------- | -------- | ---------------------- |
+| 推荐系统架构 · Architecture     | 中文       | 14       | 13 done, 1 in progress |
+| 推荐工程实践 · Engineering      | 中文       | 2        | In Progress            |
+| Architecture (EN version) | English  | 14       | In Progress            |
+| Engineering (EN version)  | English  | 2        | In Progress            |
 
 ## Repository Structure
 

@@ -1,0 +1,38 @@
+# Word 打开 docx 生成的隐藏临时文件
+~*
+# Word 自动备份、缓存文件
+*.tmp
+*.bak
+*.wbk
+# Office 系统缓存文件夹
+.OfficeBackup/
+office.tmp/
+
+# Windows 系统隐藏文件
+Thumbs.db
+desktop.ini
+# Mac 系统隐藏文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code / 文本编辑器缓存
+.vscode/
+*.swp
+*.swo
+# 记事本、第三方编辑器临时文件
+*.log
+*.cache
+
+# 强制不忽略 正文格式文件
+!*.md
+!*.txt
+# 保留正常 docx 原稿（仅过滤临时文件）
+#!*.docx
+#!*.doc
+
+pdf/
+tmp/
+
+.obsidian/
+

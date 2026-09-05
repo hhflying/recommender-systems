@@ -1,6 +1,8 @@
 # Recommender Systems: Architecture & Engineering
 
-A practical, experience-based series on recommender system architecture and engineering — from offline feature pipelines to online real-time ranking, written by Hui who has built large-scale recommendation systems in production.
+A practical series on recommender system architecture and engineering by Huang Hui, based on experience building large-scale production systems. Topics span offline data and feature pipelines, online retrieval and ranking, and the engineering decisions that connect them.
+
+基于大规模推荐系统生产实践，系统梳理从离线数据与特征生产，到在线召回、排序与工程实现的核心链路。
 
 [简体中文](./zh/README.md) | [English](./en/README.md)
 
@@ -8,12 +10,15 @@ A practical, experience-based series on recommender system architecture and engi
 
 ## What's Inside
 
-| Series                    | Language | Articles | Status                 |
-| ------------------------- | -------- | -------- | ---------------------- |
-| 推荐系统架构 · Architecture     | 中文       | 14       | 13 done, 1 in progress |
-| 推荐工程实践 · Engineering      | 中文       | 2        | In Progress            |
-| Architecture (EN version) | English  | 14       | In Progress            |
-| Engineering (EN version)  | English  | 2        | In Progress            |
+- **Architecture**: Core modules, data flows, service boundaries, and how offline and online systems work together.
+- **Engineering**: Concrete designs and implementation trade-offs, including similarity-based caching and Process Chain scheduling.
+
+| Series | Chinese content | English translations |
+| --- | --- | --- |
+| Architecture | 13 completed articles; article 14 is a draft | Planned; none available yet |
+| Engineering | 2 articles available; series ongoing | Planned; none available yet |
+
+Start with the [Chinese reading guide](./zh/README.md) or browse the [English translation roadmap](./en/README.md). Both series will continue to grow.
 
 ## Repository Structure
 
@@ -26,14 +31,16 @@ A practical, experience-based series on recommender system architecture and engi
 │   └── engineering/         ← Chinese engineering practice articles
 ├── en/
 │   ├── README.md            ← English index & reading guide
-│   ├── architecture/        ← English architecture articles (in progress)
-│   └── engineering/         ← English engineering practice articles
+│   ├── architecture/        ← English architecture articles (planned)
+│   └── engineering/         ← English engineering articles (planned)
 ├── assets/
 │   ├── architecture/        ← Images & diagrams
 │   └── engineering/
 ├── LICENSE-CC-BY-4.0        ← License for articles, images & diagrams
 └── LICENSE-MIT              ← License for source code (if any)
 ```
+
+The empty English article directories shown above are planned and will appear in Git when translations are added.
 
 ## License
 
@@ -50,4 +57,4 @@ This repository applies different licenses for **article content** and **source 
   Licensed under the [MIT License](https://opensource.org/licenses/MIT).
   See [`LICENSE-MIT`](./LICENSE-MIT).
 
-All copyright © Huang Hui.
+© Huang Hui.

@@ -15,7 +15,7 @@ A practical series on recommender system architecture and engineering by Huang H
 
 | Series | Chinese content | English translations |
 | --- | --- | --- |
-| Architecture | 13 completed articles; article 14 is a draft | Planned; none available yet |
+| Architecture | 14 completed articles | Planned; none available yet |
 | Engineering | 2 articles available; series ongoing | Planned; none available yet |
 
 Start with the [Chinese reading guide](./zh/README.md) or browse the [English translation roadmap](./en/README.md). Both series will continue to grow.
